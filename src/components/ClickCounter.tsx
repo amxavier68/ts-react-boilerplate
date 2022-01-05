@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-export const ClickCounter:Function = () => {
-  const [ count, setCount ] = useState<number>(0);
+export const ClickCounter = () => {
+  const [count, setCount] = useState<number>(0);
 
   return (
     <div>
-      <button onClick={() => setCount(c => c + 1)}>Count: {count}</button>
+      <button onClick={() => setCount((c) => c + 1)}>Count: {count}</button>
     </div>
-  )
-}
+  );
+};
