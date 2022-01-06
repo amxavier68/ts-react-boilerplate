@@ -1,14 +1,15 @@
 {
-  "name": "wp-ts-node",
+  "name": "wp-ts-node-express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --open --env env=dev",
-    "start": "webpack --env env=prod",
+    "build": "webpack --env env=prod",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
   },
   "keywords": [
     "React",

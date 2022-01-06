@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <img src={Logo} alt="logo" />
 
-      <h1>Welcome to Typescript/React Webpack Starter Template</h1>
+      <h1>Welcome to Typescript/Node-Express Webpack Starter Template</h1>
       <h2>Running in {process.env.NODE_ENV} mode.</h2>
       <h2>Status: {process.env.name}</h2>
 
